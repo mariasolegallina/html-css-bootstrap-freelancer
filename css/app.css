@@ -13,10 +13,10 @@ li {
     --sb-green: #1ABC9C;
 }
 
+/* header */
 .page-header {
     background-color: var(--sb-blue);
     color: white;
-    text-transform: uppercase;
 }
 
 .nav-link,
@@ -27,3 +27,22 @@ li {
 .page-header button {
     border: 1px solid white;
 }
+
+/* hero */
+.hero {
+    background-color: var(--sb-green);
+    color: white;
+}
+
+.hero img {
+    max-width: 230px;
+}
+
+.star::before,
+.star::after {
+    content: '-';
+	/* display: block;
+	height: 2px;
+	background-color: white;
+	width: 40px; */
+  }
