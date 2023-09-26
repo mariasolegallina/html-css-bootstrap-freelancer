@@ -23,3 +23,7 @@ li {
 .fa-solid {
     color: white;
 }
+
+.page-header button {
+    border: 1px solid white;
+}
