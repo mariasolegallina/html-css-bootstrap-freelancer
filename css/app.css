@@ -8,6 +8,10 @@ li {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 :root {
     --sb-blue: #2C3E50;
     --sb-green: #1ABC9C;
@@ -19,8 +23,7 @@ li {
     color: white;
 }
 
-.nav-link,
-.fa-solid {
+.nav-link {
     color: white;
 }
 
@@ -28,8 +31,8 @@ li {
     border: 1px solid white;
 }
 
-/* hero */
-.hero {
+.hero,
+.about {
     background-color: var(--sb-green);
     color: white;
 }
@@ -45,4 +48,10 @@ li {
 	height: 2px;
 	background-color: white;
 	width: 40px; */
-  }
+}
+
+  
+.portfolio {
+    color: var(--sb-blue);
+}
+
