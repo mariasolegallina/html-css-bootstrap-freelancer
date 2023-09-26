@@ -1,0 +1,25 @@
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+:root {
+    --sb-blue: #2C3E50;
+    --sb-green: #1ABC9C;
+}
+
+.page-header {
+    background-color: var(--sb-blue);
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link,
+.fa-solid {
+    color: white;
+}
