@@ -40,13 +40,19 @@ img {
     max-width: 230px;
 }
 
+.star {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 .star::before,
 .star::after {
-    content: '-';
-	/* display: block;
+    content: '';
+	display: block;
 	height: 2px;
-	background-color: white;
-	width: 40px; */
+	background-color: currentColor ;
+    max-width: 150px;
+    flex-grow: 1;
 }
 
   
