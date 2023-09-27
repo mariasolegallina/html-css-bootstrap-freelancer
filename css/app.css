@@ -17,7 +17,6 @@ img {
     --sb-green: #1ABC9C;
 }
 
-/* header */
 .page-header {
     background-color: var(--sb-blue);
     color: white;
@@ -51,7 +50,8 @@ img {
 }
 
   
-.portfolio {
+.portfolio,
+.contact-me {
     color: var(--sb-blue);
 }
 
